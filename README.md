@@ -24,27 +24,27 @@ https://github.com/Ascensao/plate-vision/assets/8701603/236a2e8e-5385-4b72-ad72-
 
 1. Add your video with cars to the root directory and name it 'sample.mp4'.
 
-2. Execute `main.py` --> test.csv
+2. Execute `main.py` --> frames.csv
 
-3. Execute `add_missing_frames.py` --> test_interpolated.csv
+3. Execute `add_missing_frames.py` --> frames_interpolated.csv
 
 4. Execute `visualize.py` --> out.mp4
 
-5. To run the script again, delete: `test.csv, 'test_interpolated.csv', and out.mp4` and add a new `sample.mp4`
+5. To run the script again, delete: `frames.csv, 'frames_interpolated.csv', and out.mp4` and add a new `sample.mp4`
 
 **Results**
 
 - View the output video `out.mp4` containing the detected plates.
-- `test.csv` contains all detected vehicles, plates and and corresponding coordinates.
-- `test_interpolated.csv` cotains all the data of test.csv but with more frames for a smooth video.
+- `frames.csv` contains all detected vehicles, plates and corresponding coordinates.
+- `frames_interpolated.csv` contains all the data of frames.csv but with more frames for a smooth video.
 
 ## Features
 
-- The current script is designed to read Portuguese license plates. Support for more regions will be added in the near future.
+- The current script is designed to read Portuguese license plates. Support for more regions' license formats will be added in the near future.
 
-- This is a demo version of the code. The complete code is not public for now. If you are interested in the full code that achieves an accuracy of 95% or more, please contact me at b.ascensao@gmail.com.
+- This is a demo version of the code. The complete code is not public for now. If you are interested in the full code that achieves an accuracy of 100%, please contact me at b.ascensao@gmail.com.
 
-- The results currently showcased in this repository are generated using the full version, not the demo version. Therefore, if you run the script with the `sample.mp4` provided in this repo, the outcome will not be the same.
+- The results currently showcased in this repository are generated using the full version, not the demo version. Therefore, if you run the script with the `sample.mp4` provided in this repo, the outcome will not be exactly the same.
 
 ## Buy me a coffee
 Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)

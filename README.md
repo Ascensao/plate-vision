@@ -6,7 +6,7 @@ It provides an optimal solution for scenarios requiring automated vehicle identi
 
 ## Example
 
-[<img src="https://i.ibb.co/hdPP1D3/plates.png" width="50%">](https://www.youtube.com/watch?v=m9f5T2NUPzg "Plate Detection")
+https://github.com/Ascensao/plate-vision/assets/8701603/236a2e8e-5385-4b72-ad72-ba25ee669f32
 
 ## Usage
 
